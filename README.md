@@ -1,1 +1,1 @@
-A light flask app that uses a custom api.
+A light flask app that uses a custom  RESTFUL api.
