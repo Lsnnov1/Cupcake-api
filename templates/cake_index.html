@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cupcakes</h1>
+    <h2>
+        <ul>
+            {% for cake in cakes %}
+            <li>{{cake}}</li><img src="{{cake.image}}" alt="A photo of a Cupcake" width="60" height="60" class="image">
+            {% endfor %}
+        </ul>
+    </h2>
+</body>
+</html>
